@@ -3,8 +3,8 @@ Welcome to the online portfolio for Candra Fried. This portfolio features some o
 
 ## Important URLs
 
-- [Deployed Application URL](#)
-- [GitHub Repo URL](#)
+- [Deployed Application URL](https://candracodes.github.io/cfried-portfolio-new/)
+- [GitHub Repo URL](https://github.com/candracodes/cfried-portfolio-new)
 
 ## Foreword
 

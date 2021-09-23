@@ -1,36 +1,497 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Adding this next line to prevent "MIXED CONTENT" error in github -->
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="ThemeStarz">
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-    <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <!-- FONT AWESOME CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <!-- BOOTSTRAP (AVOIDING CDN FOR POTENTIAL SECURITY REASONS )-->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" type="text/css">
+    <!-- FONTAWESOME CSS-->
+    <link rel="stylesheet" href="./assets/font-awesome/css/fontawesome-all.min.css">
+    <!-- THEMING CSS-->
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/odometer-theme-default.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <!-- CUSTOM CSS-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Candra Fried Portfolio</title>
+
 </head>
 
-<body>
-    <p>This is a placeholder</p>
-    <!-- JQUERY JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- MOMENT JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <!-- CUSTOM JS -->
-    <script src="./assets/js/script.js"></script>
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
+    <div class="ts-page-wrapper" id="page-top">
+        <!--NAVIGATION ******************************************************************************************-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll"
+                    href="#page-top">
+                    <img src="assets/img/logo.png" alt="White text against Pink background of Candra Fried logo.">
+                </a>
+                <!--end navbar-brand-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--end navbar-toggler-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+                        <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span
+                                class="sr-only">(current)</span></a>
+                        <!-- <a class="nav-item nav-link ts-scroll" href="#my-services">Services</a> -->
+                        <a class="nav-item nav-link ts-scroll" href="#about-me">About Me</a>
+                        <a class="nav-item nav-link ts-scroll" href="#my-skills">Skills</a>
+                        <a class="nav-item nav-link ts-scroll" href="#portfolio">Portfolio</a>
+                        <!-- <a class="nav-item nav-link ts-scroll" href="#testimonials">Clients</a> -->
+                        <a class="nav-item nav-link ts-scroll mr-2" href="#contact">Contact</a>
+                    </div>
+                    <!--end navbar-nav-->
+                </div>
+                <!--end collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!--end navbar-->
+        <!--*********************************************************************************************************-->
+        <!--************ HERO ***************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <div id="ts-hero" class="ts-animate-hero-items">
+
+            <!--HERO CONTENT ****************************************************************************************-->
+            <div class="container position-relative h-100 ts-align__vertical">
+                <div class="row w-100">
+                    <div class="col-md-8">
+                        <!--SOCIAL ICONS-->
+                        <figure class="ts-social-icons mb-4">
+                            <!-- linkedin -->
+                            <a href="https://www.linkedin.com/in/candracook/" target="_blank" class="mr-3">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <!-- github -->
+                            <a href="https://github.com/candracodes" target="_blank" class="mr-3">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </figure>
+
+                        <!-- HEADSHOT -->
+                        <!-- <img src="./assets/img/headshot1.png"/> -->
+                        <!--TITLE -->
+                        <h1>I am Candra Fried</h1>
+                        <h1 class="ts-bubble-border">
+                            <span class="ts-title-rotate">
+                                <span class="active">UX/UI Specialist</span>
+                                <span>Developer</span>
+                                <span>Artist</span>
+                            </span>
+                        </h1>
+
+
+
+                    </div>
+                    <!--end col-md-8-->
+                </div>
+                <!--end row-->
+
+                <!-- START: DOWN ARROW *********************************** -->
+                <a href="#about-me" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
+                    <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
+                        <i class="fa fa-arrow-down text-white"></i>
+                    </span>
+                    <span class="ts-hidden ts-circle__sm rounded-0">
+                        <i class="fa fa-arrow-down text-white"></i>
+                    </span>
+                </a>
+                <!-- END: DOWN ARROW *********************************** -->
+
+            </div>
+            <!--end container-->
+            <!--END HERO CONTENT ************************************************************************************-->
+
+            <!--HERO BACKGROUND *************************************************************************************-->
+            <div class="ts-background">
+                <div class="ts-background-image" data-bg-image="assets/img/bg-hero.jpg"></div>
+            </div>
+            <!--END HERO BACKGROUND *********************************************************************************-->
+
+        </div>
+        <!--end #hero-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ CONTENT ************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <main id="ts-content">
+
+            <!-- START: CONNECT ON LINKEDIN ***********************************************************************************-->
+            <section class="ts-block">
+                <div class="container">
+                    <div class="text-center px-5 pt-5 position-relative">
+                        <h3 class="my-3">
+                            Let’s Work Together On Your Next Project!
+                        </h3>
+                        <a href="#contact" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Let's
+                            Connect!</a>
+                        <div class="ts-background ts-opacity__20" data-bg-image="assets/img/bg-keyboard.jpg"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- END: CONNECT ON LINKEDIN ***********************************************************************************-->
+
+            <!-- START: ABOUT ME ***********************************************************************************-->
+            <section id="about-me" class="ts-block pb-4">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>About Me</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row ts-align__vertical">
+                        <div class="col-md-6">
+                            <img src="assets/img/headshot1.png" alt="A closeup Black and white photo of Candra Fried, wearing a hat." class="mw-100 mb-5">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="ts-bubble-border">Hi There</h4>
+                            <p>
+                                I'm Candra Fried. I'm a UX/UI Specialist & Full Stack Developer with career experience
+                                spanning over 15 years.
+                                I have a well-rounded career journey marrying design with functionality and clean code.
+                                Currently acting as a liaison between engineering and product —
+                                mentoring junior designers and developers, and continuing a quest to stay updated on the
+                                latest design
+                                and development trends.
+                            </p>
+                            <dl class="ts-column-count-2">
+                                <dt>Name:</dt>
+                                <dd>Candra Fried</dd>
+                                <dt>Email:</dt>
+                                <dd>letschat@candracodes.com</dd>
+                            </dl>
+                            <hr class="ts-hr-light mb-5">
+                            <a href="#contact" class="ts-btn-effect mr-2">
+                                <span class="ts-visible btn btn-primary ts-btn-arrow">Contact Me</span>
+                                <span class="ts-hidden btn btn-primary ts-btn-arrow" data-bg-color="#d44729">Contact
+                                    Me</span>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1DQE7p5poFXvcVrIBnuNTejJkuoTIuxOj/view?usp=sharing"
+                                target="_blank" class="ts-btn-effect mr-2">
+                                <span class="ts-visible btn btn-outline-light">
+                                    <i class="fa fa-download small mr-2"></i>
+                                    Download CV
+                                </span>
+                                <span class="ts-hidden btn btn-light bg-white">
+                                    <i class="fa fa-download small mr-2"></i>
+                                    Download CV
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end row-->
+                    
+                    
+                </div>
+            </section>
+            <!-- END: ABOUT ME ***********************************************************************************-->
+
+            <!-- START: PORTFOLIO ***********************************************************************************-->
+            <section class="ts-block pb-5" id="portfolio">
+                <div class="container">
+                    <!--start ts-title-->
+                    <div class="ts-title">
+                        <h2>Portfolio</h2>
+                    </div>
+                    <!--end ts-title-->
+
+                    <!-- start: row -->
+                    <div class="row">
+                        <!-- PROJECT 1: DAYTRIPPER -->
+                        <div class="ts-gallery col-sm-12 col-md-6">
+                            <a href="assets/img/portfolio/img-1-daytripper.png" class="card ts-gallery__item popup-image"
+                                data-animate="ts-fadeInUp">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">DayTripper</h6>
+                                    <h4>Sr. Dev/Designer</h4>
+                                </div>
+                                <img src="assets/img/portfolio/img-1-daytripper.png" class="card-img"
+                                    alt="Car with bags on top driving down road for a road trip">
+                                <!--end ts-gallery__image-->
+                            </a>
+                            <br>
+                            <h5>DayTripper</h5>
+                            <p class="project-link">
+                                <a target="_blank" href="https://candracodes.github.io/daytripper/">URL</a><br>
+                                <a target="_blank" href="https://github.com/candracodes/daytripper">Github</a>
+                            </p>
+                        </div>
+                        <!-- PROJECT 2: WEATHER DASHBOARD -->
+                        <div class="ts-gallery col-sm-12 col-md-3">
+                            <a href="assets/img/portfolio/img-2-weather.png" class="card ts-gallery__item popup-image"
+                                data-animate="ts-fadeInUp">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Weather Dashboard</h6>
+                                    <h4>Full Stack Dev/Designer</h4>
+                                </div>
+                                <img src="assets/img/portfolio/img-2-weather.png" class="card-img"
+                                    alt="Gray and Blue squares containing today's forecast and the 5 day forecast, with accompanying icons representing clouds, the sun, and the weather of that day.">
+                                <!--end ts-gallery__image-->
+                            </a>
+                            <br>
+                            <h5>Weather Dashboard</h5>
+                            <p class="project-link">
+                                <a target="_blank" href="https://candracodes.github.io/weather-dashboard/">URL</a><br>
+                                <a target="_blank" href="https://github.com/candracodes/weather-dashboard">Github</a>
+                            </p>
+                        </div>
+                        <!-- PROJECT 3: WORKDAY SCHEDULER -->
+                        <div class="ts-gallery col-sm-12 col-md-3">
+                            <a href="assets/img/portfolio/img-3-workday.png" class="card ts-gallery__item popup-image"
+                                data-animate="ts-fadeInUp">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Workday Scheduler</h6>
+                                    <h4>Full Stack Developer</h4>
+                                </div>
+                                <img src="assets/img/portfolio/img-3-workday.png" class="card-img"
+                                    alt="A flat planner with gray blocks indicating time in the past, red blocks indicating time in the present, and green blocks representing blocks in the future.">
+                                <!--end ts-gallery__image-->
+                            </a>
+                            <br>
+                            <h5>Workday Scheduler</h5>
+                            <p class="project-link">
+                                <a target="_blank" href="https://candracodes.github.io/work-day-scheduler/">URL</a><br>
+                                <a target="_blank" href="https://github.com/candracodes/work-day-scheduler">Github</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end: row -->
+
+                    <!-- TODO: ROW WITH NO URLS-->
+                    <div class="card-columns ts-gallery ts-column-count-4">
+                        <!-- CICELY TYSON -->
+                        <a href="assets/img/portfolio/img-10-cicely.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Cicely Tyson</h6>
+                                <h4>Pencil Drawing</h4>
+                            </div>
+                            <img src="assets/img/portfolio/img-10-cicely.png" class="card-img" alt="Actress Cicely Tyson drawn with graphite pencil onto beige canvas paper.">
+                        </a>
+                        <!-- BOOTSY COLLINS -->
+                        <a href="assets/img/portfolio/img-11-bootsy.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Bootsy Collins</h6>
+                                    <h4>Pencil Drawing</h4>
+                                </div>
+                                <img src="assets/img/portfolio/img-11-bootsy.png" class="card-img" alt="A colored pencil drawing of singer and bassist Bootsy Collins">
+                            </div>
+                        </a>
+                        <!-- ERYKAH BADU -->
+                        <a href="assets/img/portfolio/img-12-erykah.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/portfolio/img-12-erykah.png" class="card-img" alt="A colored pencil drawing of singer, Erykah Badu.">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Erykah Badu</h6>
+                                    <h4>Colored Pencil</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- ANDRE 3000 -->
+                        <a href="assets/img/portfolio/img-13-andre.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/portfolio/img-13-andre.png" class="card-img" alt="A red and warm colored digital drawing of rapper/actor Andre 3000.">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Andre 3000</h6>
+                                    <h4>Digital Drawing</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <!-- TODO: ROW WITH NO URLS-->
+
+                </div>
+                <!--end container-->
+            </section>
+            <!-- END: PORTFOLIO ***********************************************************************************-->
+
+            
+
+            <!-- START: MY SKILLS ***********************************************************************************-->
+            <section id="my-skills" class="ts-block pb-5">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>My Skills</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                I specialize in a variety of creative services ranging from professional illustrations,
+                                print-work to web development.
+                                I'm proficient in the full Adobe Creative Suite, HTML 5, CSS, Javascript and several
+                                other frameworks/libraries.
+
+                            </p>
+                            <a href="#contact" class="btn btn-outline-light mb-5">Contact Me</a>
+                        </div>
+                        <!--end col-md-6-->
+                        <div class="col-md-6">
+                            <div class="progress" data-progress-width="100%">
+                                <h5 class="ts-progress-title">UX Design</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="95%">
+                                <h5 class="ts-progress-title">UI Development</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="100%">
+                                <h5 class="ts-progress-title">Adobe Creative Suite</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="100%">
+                                <h5 class="ts-progress-title">Prototyping & Wireframing</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="99%">
+                                <h5 class="ts-progress-title">Painting & Illustration</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="80%">
+                                <h5 class="ts-progress-title">Graphics & Crafting</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                        </div>
+                        <!--end col-md-6-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!-- END: MY SKILLS ***********************************************************************************-->
+
+
+
+
+        </main>
+        <!--end #content-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ FOOTER *************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <footer id="ts-footer" class="mt-5">
+
+            <section id="contact" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-man-wall.jpg"
+                data-bg-image-opacity=".1">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2 class="ts-bubble-border">Get In Touch</h2>
+                    </div>
+                    <div class="row ts-xs-text-center ">
+                        <!-- start: ICON 1 -->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp">
+                            <i class="fas fa-map-marker-alt mb-4 footer-icon" alt="Pink icon of a map pin, indicating the location of Candra Fried"></i>
+                            <h5>Location</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">Dallas, TX, USA</figure>
+                            </div>
+                        </div>
+                        <!-- start: ICON 1 -->
+
+                        <!-- start: ICON 2 -->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".1s">
+                            <i class="fas fa-phone mb-4 footer-icon" alt="A pink icon of a phone indicating the phone number of Candra Fried"></i>
+                            <h5>Phone</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">+1 940-647-5115‬</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!-- start: ICON 2 -->
+
+                        <!-- start: ICON 3 -->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
+                            <i class="fas fa-envelope-open mb-4 footer-icon" alt="A pink icon of an at symbol indicating the email of Candra Fried"></i>
+                            <h5>Email</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">letschat@candracodes.com</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!-- start: ICON 3 -->
+
+                        <!-- start: ICON 4 -->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
+                            <i class="fas fa-at mb-4 footer-icon" alt="A pink LinkedIn icon"></i>
+                            <h5>LinkedIn</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0"><a href="https://www.linkedin.com/in/candracook/" target="_blank">View Profile</a></figure>
+                            </div>
+                            <h5>Github</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0"><a href="https://github.com/candracodes" target="_blank">View Profile</a></figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!-- start: ICON 4 -->
+
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--end #contact-->
+
+            <div class="text-dark bg-white">
+                <div class="container py-3 position-relative">
+                    <small>© 2021 Candra Fried</small>
+                    <a href="#page-top"
+                        class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
+                        <i class="fa fa-arrow-up text-white"></i>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+        <!--end #footer-->
+
+    </div>
+    <!--end page-->
+
+
+    <script src="./assets/js/custom.hero.js"></script>
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="./assets/js/isInViewport.jquery.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/scrolla.jquery.min.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+    <script src="./assets/js/odometer.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="./assets/js/custom.js"></script>
 
 </body>
 
