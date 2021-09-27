@@ -41,8 +41,8 @@ SO THAT I can leave a lasting impression on future employers and potentially lan
 
 * This portfolio resembles the following screenshots:
 
-![Screenshot 1](./assets/_guide/screenshot1.png)
-![Screenshot 2](./assets/_guide/screenshot2.png)
+![Screenshot 1](./assets/_guide/Assets/screenshot1.png)
+![Screenshot 2](./assets/_guide/Assets/screenshot2.png)
 
 ## Frameworks & Libraries
 
