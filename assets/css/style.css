@@ -2589,7 +2589,14 @@ E. Template Specific Elements
 #portfolio-sections li:hover {
     color: #ffffff;
 }
-
+.selected {
+    text-decoration: underline !important;
+    color: #ffffff !important;
+}
+/* .selected a {
+    text-decoration: underline;
+    color: #ffffff;
+} */
 /*-------------------------------------------
   -- Media Queries
 -------------------------------------------*/

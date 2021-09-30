@@ -509,122 +509,168 @@ function initOwl(){
     PORTFOLIO SUB-SECTION HEADERS
     ------------------------------------------------------------
 */
+// DEFAULT TO "ALL" LINK BEING SELECTED
+$( "#portfolio-all" ).addClass( "selected");
 
 // VIEW ALL BUTTON
 $("#portfolio-all").on("click", function () {
+    // ALL BUTTON
+    $( "#portfolio-all" ).addClass( "selected");
+
     // SHOW DEVELOPMENT
     $("#show-development").show();
+    $("#portfolio-development").removeClass("selected");
+    
 
     // HIDE UX/UI
     $("#show-ux").show();
+    $("#portfolio-ux").removeClass("selected");
 
     // HIDE PRINT & GRAPHICS
     $("#show-print").show();
+    $("#portfolio-print").removeClass("selected");
 
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").show();
+    $("#portfolio-art").removeClass("selected");
 
     // HIDE MIXED MEDIA
     $("#show-mixed").show();
+    $("#portfolio-mixed").removeClass("selected");
 
 });
 
 // DEVELOPMENT BUTTON
 $("#portfolio-development").on("click", function () {
+    // ALL BUTTON
+    $( "#portfolio-all" ).removeClass( "selected");
     
     // HIDE DEVELOPMENT
     $("#show-development").show();
+    $("#portfolio-development").addClass("selected");
 
     // SHOW UX/UI
     $("#show-ux").hide();
+    $("#portfolio-ux").removeClass("selected");
 
     // HIDE PRINT & GRAPHICS
     $("#show-print").hide();
+    $("#portfolio-print").removeClass("selected");
 
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").hide();
+    $("#portfolio-art").removeClass("selected");
 
     // HIDE MIXED MEDIA
     $("#show-mixed").hide();
+    $("#portfolio-mixed").removeClass("selected");
 
 });
 
 // UX BUTTON
 $("#portfolio-ux").on("click", function () {
+    // ALL BUTTON
+    $( "#portfolio-all" ).removeClass( "selected");
     
     // HIDE DEVELOPMENT
     $("#show-development").hide();
+    $("#portfolio-development").removeClass("selected");
 
     // SHOW UX/UI
     $("#show-ux").show();
+    $("#portfolio-ux").addClass("selected");
 
     // HIDE PRINT & GRAPHICS
     $("#show-print").hide();
+    $("#portfolio-print").removeClass("selected");
 
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").hide();
+    $("#portfolio-art").removeClass("selected");
 
     // HIDE MIXED MEDIA
     $("#show-mixed").hide();
+    $("#portfolio-mixed").removeClass("selected");
 
 });
 
 // PRINT BUTTON
 $("#portfolio-print").on("click", function () {
+    // ALL BUTTON
+    $( "#portfolio-all" ).removeClass( "selected");
     
     // HIDE DEVELOPMENT
     $("#show-development").hide();
+    $("#portfolio-development").removeClass("selected");
 
     // SHOW UX/UI
     $("#show-ux").hide();
+    $("#portfolio-ux").removeClass("selected");
 
     // HIDE PRINT & GRAPHICS
     $("#show-print").show();
+    $("#portfolio-print").addClass("selected");
 
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").hide();
+    $("#portfolio-art").removeClass("selected");
 
     // HIDE MIXED MEDIA
     $("#show-mixed").hide();
+    $("#portfolio-mixed").removeClass("selected");
 
 });
 
 // ART BUTTON
 $("#portfolio-art").on("click", function () {
+    // ALL BUTTON
+    $( "#portfolio-all" ).removeClass( "selected");
     
     // HIDE DEVELOPMENT
     $("#show-development").hide();
+    $("#portfolio-development").removeClass("selected");
 
     // SHOW UX/UI
     $("#show-ux").hide();
+    $("#portfolio-ux").removeClass("selected");
 
     // HIDE PRINT & GRAPHICS
     $("#show-print").hide();
+    $("#portfolio-print").removeClass("selected");
 
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").show();
+    $("#portfolio-art").addClass("selected");
 
     // HIDE MIXED MEDIA
     $("#show-mixed").hide();
+    $("#portfolio-mixed").removeClass("selected");
 
 });
 
 // MIXED MEDIA BUTTON
 $("#portfolio-mixed").on("click", function () {
+    // ALL BUTTON
+    $( "#portfolio-all" ).removeClass( "selected");
     
     // HIDE DEVELOPMENT
     $("#show-development").hide();
+    $("#portfolio-development").removeClass("selected");
 
     // SHOW UX/UI
     $("#show-ux").hide();
+    $("#portfolio-ux").removeClass("selected");
 
     // HIDE PRINT & GRAPHICS
     $("#show-print").hide();
+    $("#portfolio-print").removeClass("selected");
 
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").hide();
+    $("#portfolio-art").removeClass("selected");
 
     // HIDE MIXED MEDIA
     $("#show-mixed").show();
+    $("#portfolio-mixed").addClass("selected");
 
 });
