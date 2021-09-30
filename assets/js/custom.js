@@ -504,3 +504,127 @@ function initOwl(){
         });
     }
 }
+/* 
+    ------------------------------------------------------------
+    PORTFOLIO SUB-SECTION HEADERS
+    ------------------------------------------------------------
+*/
+
+// VIEW ALL BUTTON
+$("#portfolio-all").on("click", function () {
+    // SHOW DEVELOPMENT
+    $("#show-development").show();
+
+    // HIDE UX/UI
+    $("#show-ux").show();
+
+    // HIDE PRINT & GRAPHICS
+    $("#show-print").show();
+
+    // HIDE ART & ILLUSTRATIONS
+    $("#show-art").show();
+
+    // HIDE MIXED MEDIA
+    $("#show-mixed").show();
+
+});
+
+// DEVELOPMENT BUTTON
+$("#portfolio-development").on("click", function () {
+    
+    // HIDE DEVELOPMENT
+    $("#show-development").show();
+
+    // SHOW UX/UI
+    $("#show-ux").hide();
+
+    // HIDE PRINT & GRAPHICS
+    $("#show-print").hide();
+
+    // HIDE ART & ILLUSTRATIONS
+    $("#show-art").hide();
+
+    // HIDE MIXED MEDIA
+    $("#show-mixed").hide();
+
+});
+
+// UX BUTTON
+$("#portfolio-ux").on("click", function () {
+    
+    // HIDE DEVELOPMENT
+    $("#show-development").hide();
+
+    // SHOW UX/UI
+    $("#show-ux").show();
+
+    // HIDE PRINT & GRAPHICS
+    $("#show-print").hide();
+
+    // HIDE ART & ILLUSTRATIONS
+    $("#show-art").hide();
+
+    // HIDE MIXED MEDIA
+    $("#show-mixed").hide();
+
+});
+
+// PRINT BUTTON
+$("#portfolio-print").on("click", function () {
+    
+    // HIDE DEVELOPMENT
+    $("#show-development").hide();
+
+    // SHOW UX/UI
+    $("#show-ux").hide();
+
+    // HIDE PRINT & GRAPHICS
+    $("#show-print").show();
+
+    // HIDE ART & ILLUSTRATIONS
+    $("#show-art").hide();
+
+    // HIDE MIXED MEDIA
+    $("#show-mixed").hide();
+
+});
+
+// ART BUTTON
+$("#portfolio-art").on("click", function () {
+    
+    // HIDE DEVELOPMENT
+    $("#show-development").hide();
+
+    // SHOW UX/UI
+    $("#show-ux").hide();
+
+    // HIDE PRINT & GRAPHICS
+    $("#show-print").hide();
+
+    // HIDE ART & ILLUSTRATIONS
+    $("#show-art").show();
+
+    // HIDE MIXED MEDIA
+    $("#show-mixed").hide();
+
+});
+
+// MIXED MEDIA BUTTON
+$("#portfolio-mixed").on("click", function () {
+    
+    // HIDE DEVELOPMENT
+    $("#show-development").hide();
+
+    // SHOW UX/UI
+    $("#show-ux").hide();
+
+    // HIDE PRINT & GRAPHICS
+    $("#show-print").hide();
+
+    // HIDE ART & ILLUSTRATIONS
+    $("#show-art").hide();
+
+    // HIDE MIXED MEDIA
+    $("#show-mixed").show();
+
+});

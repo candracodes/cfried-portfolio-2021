@@ -73,6 +73,10 @@ E. Template Specific Elements
   -- Other
   -- Story
 
+F. Media Queries
+
+G. Portfolio Sections
+
 
 ----------------------------------------------------------------------------------------------------------------------*/
 
@@ -1521,7 +1525,7 @@ form.ts-labels-inside-input .form-group label.focused,
 
 .ts-gallery .ts-gallery__item .ts-gallery__item-description {
     background-color: rgba(0, 0, 0, .8);
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
     color: #fff;
     position: absolute;
     top: 0;
@@ -2565,6 +2569,31 @@ E. Template Specific Elements
     height: 100% !important;
 }
 
+/*-------------------------------------------
+  -- Portfolio Sections
+-------------------------------------------*/
+.portfolio-title{
+    margin-bottom: 1rem !important;
+}
+#portfolio-sections {
+    padding: 0 !important;
+    margin-bottom: 2rem;
+}
+#portfolio-sections li {
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+    cursor: pointer;
+    color: #d94795;
+}
+#portfolio-sections li:hover {
+    color: #ffffff;
+}
+
+/*-------------------------------------------
+  -- Media Queries
+-------------------------------------------*/
+
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
     html {
         font-size: 85%;
@@ -2884,10 +2913,14 @@ E. Template Specific Elements
         left: 2.5rem;
     }
 }
+
 /* MOBILE -- LARGE */
 @media (max-width: 425px) {
     .ts-background-image {
         display:none;
+    }
+    #portfolio-sections li {
+        float: none;
     }
 }
 
@@ -2899,7 +2932,3 @@ E. Template Specific Elements
     }
 }
 
-/* DOWN ARROWS */
-.ts-right_10 {
-    right:10%
-}
