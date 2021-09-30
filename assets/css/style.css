@@ -973,7 +973,9 @@ p {
 .ts-z-index__1000 {
     z-index: 1000 !important;
 }
-
+.footer-center {
+    text-align: center;
+}
 /***********************************************************************************************************************
 C. Components
 ***********************************************************************************************************************/
@@ -1796,7 +1798,14 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 /*-------------------------------------------
   -- Navbar
 -------------------------------------------*/
-
+.nav-link:hover{
+    color: #d94795 !important;
+    background-color: rgba(255, 0, 0, 0.1);
+    transition: .3s ease;
+    -webkit-transition: all .15s ease-out;
+       -moz-transition: all .15s ease-out;
+            transition: all .15s ease-out;
+}
 .navbar {
     font-size: .875rem;
     font-weight: 500;
