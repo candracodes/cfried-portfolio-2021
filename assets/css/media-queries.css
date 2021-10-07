@@ -331,6 +331,10 @@
     #portfolio-sections li {
         float: none;
     }
+    .phone-mockup {
+        background-color: #eff9fa;
+        height: 100px;
+    }
 }
 
 /* TABLET -- VERTICAL */
@@ -338,5 +342,9 @@
     .ts-background-image {
         /* background-position: top right; */
         height: 75%;
+    }
+    .phone-mockup {
+        background-color: #eff9fa;
+        height: 100px;
     }
 }
