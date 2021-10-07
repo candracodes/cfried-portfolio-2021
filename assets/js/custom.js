@@ -509,6 +509,12 @@ function initOwl(){
     PORTFOLIO SUB-SECTION HEADERS
     ------------------------------------------------------------
 */
+// DEFAULT THUMBNAILS TO BE HIDDEN
+$("#show-development").hide();
+$("#show-ux").hide();
+$("#show-print").hide();
+$("#show-art").hide();
+
 // DEFAULT TO "ALL" LINK BEING SELECTED
 $( "#portfolio-all" ).addClass( "selected");
 
@@ -534,10 +540,6 @@ $("#portfolio-all").on("click", function () {
     $("#show-art").show();
     $("#portfolio-art").removeClass("selected");
 
-    // HIDE MIXED MEDIA
-    $("#show-mixed").show();
-    $("#portfolio-mixed").removeClass("selected");
-
 });
 
 // DEVELOPMENT BUTTON
@@ -560,10 +562,6 @@ $("#portfolio-development").on("click", function () {
     // HIDE ART & ILLUSTRATIONS
     $("#show-art").hide();
     $("#portfolio-art").removeClass("selected");
-
-    // HIDE MIXED MEDIA
-    $("#show-mixed").hide();
-    $("#portfolio-mixed").removeClass("selected");
 
 });
 
@@ -588,10 +586,6 @@ $("#portfolio-ux").on("click", function () {
     $("#show-art").hide();
     $("#portfolio-art").removeClass("selected");
 
-    // HIDE MIXED MEDIA
-    $("#show-mixed").hide();
-    $("#portfolio-mixed").removeClass("selected");
-
 });
 
 // PRINT BUTTON
@@ -615,9 +609,6 @@ $("#portfolio-print").on("click", function () {
     $("#show-art").hide();
     $("#portfolio-art").removeClass("selected");
 
-    // HIDE MIXED MEDIA
-    $("#show-mixed").hide();
-    $("#portfolio-mixed").removeClass("selected");
 
 });
 
@@ -642,35 +633,5 @@ $("#portfolio-art").on("click", function () {
     $("#show-art").show();
     $("#portfolio-art").addClass("selected");
 
-    // HIDE MIXED MEDIA
-    $("#show-mixed").hide();
-    $("#portfolio-mixed").removeClass("selected");
-
 });
 
-// MIXED MEDIA BUTTON
-$("#portfolio-mixed").on("click", function () {
-    // ALL BUTTON
-    $( "#portfolio-all" ).removeClass( "selected");
-    
-    // HIDE DEVELOPMENT
-    $("#show-development").hide();
-    $("#portfolio-development").removeClass("selected");
-
-    // SHOW UX/UI
-    $("#show-ux").hide();
-    $("#portfolio-ux").removeClass("selected");
-
-    // HIDE PRINT & GRAPHICS
-    $("#show-print").hide();
-    $("#portfolio-print").removeClass("selected");
-
-    // HIDE ART & ILLUSTRATIONS
-    $("#show-art").hide();
-    $("#portfolio-art").removeClass("selected");
-
-    // HIDE MIXED MEDIA
-    $("#show-mixed").show();
-    $("#portfolio-mixed").addClass("selected");
-
-});

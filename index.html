@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <!-- CUSTOM CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- CUSTOM MEDIA QUERIES-->
+    <link rel="stylesheet" href="./assets/css/media-queries.css">
     <title>Candra Fried Portfolio</title>
 
 </head>
@@ -208,7 +210,7 @@
                     <!--end ts-title-->
 
                     <!-- START: PORTFOLIO SECTION HEADERS -->
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-12">
                             <ul id="portfolio-sections">
                                 <li><a id="portfolio-all">All</a></li>
@@ -216,20 +218,50 @@
                                 <li><a id="portfolio-ux">UX/UI</a></li>
                                 <li><a id="portfolio-print">Print/Graphics</a></li>
                                 <li><a id="portfolio-art">Art/Illustrations</a></li>
-                                <li><a id="portfolio-mixed">Mixed Media</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- END: PORTFOLIO SECTION HEADERS -->
 
                     <hr class="ts-hr-light">
+
+                    <!-- START: PORTFOLIO CHOICES -->
+                    <div class="row portfolio-choice-container">
+                        <!-- choice 1 -->
+                        <div id="portfolio-ux" class="col-sm-12 col-md-3 col-lg-3 portfolio-choice">
+                            <a>
+                                <img src="assets/img/portfolio/portfolio-choice-ux.png" class="card-img" alt="Info">
+                            </a>
+                        </div>
+                        <!-- choice 2 -->
+                        <div id="portfolio-development" class="col-sm-12 col-md-3 col-lg-3 portfolio-choice">
+                            <a>
+                                <img src="assets/img/portfolio/portfolio-choice-dev.png" class="card-img" alt="Info">
+                            </a>
+                        </div>
+                        <!-- choice 3 -->
+                        <div id="portfolio-print" class="col-sm-12 col-md-3 col-lg-3 portfolio-choice">
+                            <a>
+                                <img src="assets/img/portfolio/portfolio-choice-print.png" class="card-img" alt="Info">
+                            </a>
+                        </div>
+                        <!-- choice 4 -->
+                        <div id="portfolio-art" class="col-sm-12 col-md-3 col-lg-3 portfolio-choice">
+                            <a>
+                                <img src="assets/img/portfolio/portfolio-choice-art.png" class="card-img" alt="Info">
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- END: PORTFOLIO CHOICES -->
 
                     <!-- start: DEVELOPMENT -->
                     <div id="show-development" class="row">
                         <!-- PROJECT 1: DAYTRIPPER -->
                         <div class="ts-gallery col-sm-12 col-md-3">
+                            <!-- <a href="assets/img/portfolio/img-1-daytripper.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"> -->
                             <a href="assets/img/portfolio/img-1-daytripper.png"
-                                class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                                class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">DayTripper</h6>
                                     <h4>Sr. Dev/Designer</h4>
@@ -248,8 +280,7 @@
                         </div>
                         <!-- PROJECT 2: WEATHER DASHBOARD -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-2-weather.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-2-weather.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Weather Dashboard</h6>
                                     <h4>Full Stack Dev/Designer</h4>
@@ -267,8 +298,7 @@
                         </div>
                         <!-- PROJECT 3: WORKDAY SCHEDULER -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-3-workday.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-3-workday.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Workday Scheduler</h6>
                                     <h4>Full Stack Developer</h4>
@@ -286,8 +316,7 @@
                         </div>
                         <!-- PROJECT 4: CODE QUIZ -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-5-codeQuiz.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-5-codeQuiz.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Code Quiz</h6>
                                     <h4>Full Stack Developer</h4>
@@ -310,8 +339,7 @@
                     <div id="show-ux" class="row">
                         <!-- PROJECT 1: DDOS -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-6-ux.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-6-ux.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Comcast</h6>
                                     <h4>Designer/Developer</h4>
@@ -327,8 +355,7 @@
                         </div>
                         <!-- PROJECT 2: COMCAST INSIGHTS -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-7-ux.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-7-ux.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Comcast</h6>
                                     <h4>Designer/Developer</h4>
@@ -344,8 +371,7 @@
                         </div>
                         <!-- PROJECT 3: PHARM -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-8-ux.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-8-ux.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">GeoDecisions</h6>
                                     <h4>Designer/Developer</h4>
@@ -361,8 +387,7 @@
                         </div>
                         <!-- PROJECT 4: ROSA -->
                         <div class="ts-gallery col-sm-12 col-md-3">
-                            <a href="assets/img/portfolio/img-9-ux.png" class="card ts-gallery__item popup-image"
-                                data-animate="ts-fadeInUp">
+                            <a href="assets/img/portfolio/img-9-ux.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">ROSA</h6>
                                     <h4>Designer/Developer</h4>
@@ -552,17 +577,7 @@
                                     </div>
                                 </div>
                             </a>
-                        </div>
-                        <!-- end: card-columns -->
-
-                    </div>
-                    <!-- start: ART -->
-
-                    <!-- START: MIXED MEDIA -->
-                    <div id="show-mixed" class="row">
-                        <!-- start: card-columns -->
-                        <div class="card-columns ts-gallery ts-column-count-4">
-                            <!-- PROJECT -->
+                            <!-- JIMI HENDRIX GUITAR -->
                             <a href="assets/img/portfolio/img-26-mixed-big.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Jimi Hendrix/Fender</h6>
@@ -570,7 +585,7 @@
                                 </div>
                                 <img src="assets/img/portfolio/img-26-mixed-thumb.png" class="card-img" alt="description">
                             </a>
-                            <!-- PROJECT -->
+                            <!-- DAYTRION CD -->
                             <a href="assets/img/portfolio/img-27-mixed-big.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Daytrion</h6>
@@ -578,7 +593,7 @@
                                 </div>
                                 <img src="assets/img/portfolio/img-27-mixed-thumb.png" class="card-img" alt="description">
                             </a>
-                            <!-- PROJECT -->
+                            <!-- DAVID BOWIE STICKER -->
                             <a href="assets/img/portfolio/img-28-mixed-big.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">David Bowie</h6>
@@ -586,7 +601,7 @@
                                 </div>
                                 <img src="assets/img/portfolio/img-28-mixed-thumb.png" class="card-img" alt="description">
                             </a>
-                            <!-- PROJECT -->
+                            <!-- FREDDIE MERCURY STICKER -->
                             <a href="assets/img/portfolio/img-29-mixed-big.png" class="card ts-gallery__item popup-image">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Freddie Mercury</h6>
@@ -596,8 +611,9 @@
                             </a>
                         </div>
                         <!-- end: card-columns -->
+
                     </div>
-                    <!-- end: MIXED MEDIA -->
+                    <!-- start: ART -->
 
 
                 </div>
@@ -609,9 +625,11 @@
             <section id="my-skills" class="ts-block pb-5">
                 <div class="container">
                     <hr class="ts-hr-light">
-                    <div class="ts-title text-center">
+                    <div class="ts-title portfolio-title">
                         <h2>My Skills</h2>
                     </div>
+                    <!--end ts-title-->
+                    <hr class="ts-hr-light">
                     <div class="row">
                         <div class="col-md-6">
                             <p>
@@ -703,18 +721,6 @@
                         <!-- start: ICON 1 -->
 
                         <!-- start: ICON 2 -->
-                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".1s">
-                            <i class="fas fa-phone mb-4 footer-icon"
-                                alt="A pink icon of a phone indicating the phone number of Candra Fried"></i>
-                            <h5>Phone</h5>
-                            <div class="ts-opacity__50">
-                                <figure class="mb-0">+1 940-647-5115‬</figure>
-                            </div>
-                            <!--end ts-opacity__50-->
-                        </div>
-                        <!-- start: ICON 2 -->
-
-                        <!-- start: ICON 3 -->
                         <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
                             <i class="fas fa-envelope-open mb-4 footer-icon"
                                 alt="A pink icon of an at symbol indicating the email of Candra Fried"></i>
@@ -724,16 +730,24 @@
                             </div>
                             <!--end ts-opacity__50-->
                         </div>
-                        <!-- start: ICON 3 -->
+                        <!-- start: ICON 2 -->
 
-                        <!-- start: ICON 4 -->
+                        <!-- start: ICON 3 -->
                         <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
-                            <i class="fas fa-at mb-4 footer-icon" alt="A pink LinkedIn icon"></i>
+                            <i class="fab fa-linkedin mb-4 footer-icon" alt="A pink LinkedIn icon"></i>
                             <h5>LinkedIn</h5>
                             <div class="ts-opacity__50">
                                 <figure class="mb-0"><a href="https://www.linkedin.com/in/candracook/"
                                         target="_blank">View Profile</a></figure>
                             </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!-- start: ICON 3 -->
+
+                        
+                        <!-- start: ICON 4 -->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
+                            <i class="fab fa-github mb-4 footer-icon" alt="A pink LinkedIn icon"></i>
                             <h5>Github</h5>
                             <div class="ts-opacity__50">
                                 <figure class="mb-0"><a href="https://github.com/candracodes" target="_blank">View
