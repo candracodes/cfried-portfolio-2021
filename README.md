@@ -12,37 +12,32 @@ Welcome to the online portfolio for Candra Fried. This portfolio features some o
 ## Foreword
 
 - This application aims to accomplish the following:
-  - [Adhere to the homework Acceptance Criteria](./assets/_guide/README.md)
   - Display my contact information.
   - Have links to my GitHub profile and LinkedIn profile
   - Have a link to a downloadable PDF of my resume
-  - Display at least 2 examples of my student work from either deployed projects or homeworks. 
-  - For each project will contain the following:
-  * Project title
-	* Link to the deployed version
-	* Link to the GitHub repository
-	* Screenshot of the deployed application
-  - Have a polished, mobile-responsive user interface.
+  - Display at least 2 recent examples of my development work from deployed projects 
+  - Each development project will contain the following:
+    * Project title
+    * Link to the deployed version
+    * Link to the GitHub repository
+    * Screenshot of the deployed application
+    * Have a polished, mobile-responsive user interface.
 
 
 ## User Story
 
 ```
-As an up and coming Software Developer
+As a seasoned UX/UI Developer and recent Full Stack Developer
 I WANT to have an online presence to showcase my work
-SO THAT I can leave a lasting impression on future employers and potentially land the Software Development role.
+SO THAT I can leave a lasting impression on future employers and those interested in working together
 ```
-
-## Acceptance Criteria
-
-- [Refer to full acceptance criteria list](./assets/_guide/README.md)
 
 ## Mock-Up
 
 * This portfolio resembles the following screenshots:
 
-![Screenshot 1](./assets/_guide/Assets/screenshot1.png)
-![Screenshot 2](./assets/_guide/Assets/screenshot2.png)
+![Screenshot 1](./assets/screenshots/screenshot1.png)
+![Screenshot 2](./assets/screenshots/screenshot2.png)
 
 ## Frameworks & Libraries
 
