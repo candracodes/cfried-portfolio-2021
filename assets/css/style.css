@@ -2622,6 +2622,10 @@ E. Template Specific Elements
 /*-------------------------------------------
   -- Portfolio Sections
 -------------------------------------------*/
+.portfolio-subheader {
+    margin-top: 1.875rem;
+    margin-bottom: 0 !important;
+}
 .portfolio-title {
     margin-bottom: 1rem !important;
 }
