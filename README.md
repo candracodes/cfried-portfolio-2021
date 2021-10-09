@@ -1,10 +1,10 @@
-# Candra Fried Portfolio 2021 — version 2
+# Candra Fried Portfolio 2021
 Welcome to the online portfolio for Candra Fried. This portfolio features some of the latest development and design work of the Dallas-based UX/UI specialist.
 
 ## Important & Relevent URLs
 
-- [Deployed Application URL](https://candracodes.github.io/cfried-portfolio-new/)
-- [GitHub Repo URL](https://github.com/candracodes/cfried-portfolio-new)
+- [Deployed Application URL](https://candracodes.github.io/cfried-portfolio-2021/)
+- [GitHub Repo URL](https://github.com/candracodes/cfried-portfolio-2021)
 - [Resume](https://drive.google.com/file/d/1DQE7p5poFXvcVrIBnuNTejJkuoTIuxOj/view?usp=sharing)
 - [LinkedIn](https://www.linkedin.com/in/candracook/ )
 
