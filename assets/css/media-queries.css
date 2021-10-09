@@ -328,12 +328,27 @@
     .ts-background-image {
         display:none;
     }
+    .mobile-headshot {
+        visibility: visible;
+    }
     #portfolio-sections li {
         float: none;
     }
     .phone-mockup {
         background-color: #eff9fa;
         height: 100px;
+    }
+    .research-container p {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(-0%, 0%);
+    }
+    .research-container h4 {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(-0%, 0%);
     }
 }
 

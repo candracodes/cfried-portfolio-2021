@@ -777,8 +777,9 @@ B. Helpers
   -- Typography
 -------------------------------------------*/
 .project-link a {
-    color: #007bff !important;
+    /* color: #007bff !important; */
 }
+
 
 .project-link a:hover {
     color: #d94795 !important;
@@ -2622,6 +2623,9 @@ E. Template Specific Elements
 /*-------------------------------------------
   -- Portfolio Sections
 -------------------------------------------*/
+.mobile-headshot {
+    visibility:hidden;
+}
 .portfolio-subheader {
     margin-top: 1.875rem;
     margin-bottom: 0 !important;
@@ -2685,11 +2689,24 @@ E. Template Specific Elements
 .ux-large-image {
     margin-bottom: 20px;
 }
-
+.ux-large-image h5 {
+    margin-top: 20px;
+}
 
 /*-------------------------------------------
   -- UX/UI PAGE
 -------------------------------------------*/
+/* .uxui-link {
+    color: #ffffff !important;
+}
+
+.xui-link a {
+    color: #ffffff !important;
+}
+.xui-link a:hover {
+    color: #d94795 !important;
+} */
+
 #ux-body {
     color: #020312;
     background-color: #fff;
