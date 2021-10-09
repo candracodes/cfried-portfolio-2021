@@ -2721,12 +2721,19 @@ E. Template Specific Elements
     transform: translate(-50%, -50%);
 }
 
+.research-container h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .challenges {
     opacity: .5;
 }
 
 .bg-dots {
-    /* background-size: 1017px;  */
+    background-size: 1017px; 
     background-image: url("../../assets/img/bg-dots.png");
     background-position: 0 0;
     background-repeat: repeat;
