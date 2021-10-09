@@ -2682,6 +2682,7 @@ E. Template Specific Elements
     margin-bottom: 20px;
 }
 
+
 /*-------------------------------------------
   -- UX/UI PAGE
 -------------------------------------------*/
@@ -2741,6 +2742,34 @@ E. Template Specific Elements
 
 .hr-medium {
     border-color: #b89d83;
+}
+
+/*-------------------------------------------
+  -- RL-COLOR-KIT
+-------------------------------------------*/
+.rl-blue {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #13416E;
+}
+.rl-salmon {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #E98B82;
+}
+.rl-gray-olive {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #A1967C;
+}
+.rl-concrete {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #D6CECD;
 }
 
 /*-------------------------------------------
