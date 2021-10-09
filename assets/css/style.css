@@ -2675,7 +2675,7 @@ E. Template Specific Elements
 }
 
 .ux-container:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .ux-large-image {
@@ -2742,3 +2742,18 @@ E. Template Specific Elements
 .hr-medium {
     border-color: #b89d83;
 }
+
+/*-------------------------------------------
+  -- SCROLL TO TOP BUTTON
+-------------------------------------------*/
+#scrollToTopBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
