@@ -2625,6 +2625,7 @@ E. Template Specific Elements
 -------------------------------------------*/
 .mobile-headshot {
     visibility:hidden;
+    height: 0;
 }
 .portfolio-subheader {
     margin-top: 1.875rem;

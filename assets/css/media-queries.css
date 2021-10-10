@@ -330,6 +330,7 @@
     }
     .mobile-headshot {
         visibility: visible;
+        height: 65%;
     }
     #portfolio-sections li {
         float: none;
